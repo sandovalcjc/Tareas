@@ -1,0 +1,36 @@
+.contenedor{
+	height: 100px;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	border-color: black;
+
+	justify-content:space-between;
+	
+	
+	border:1px solid black;
+}
+
+
+.item{
+	background-color: blue;
+	margin:0px;
+	font-size: 10px;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	
+	width: 100px;
+	height: 100px;
+	color: white;
+	
+}
+.item:last-child{
+	background-color: green;
+
+	
+}
+.item:first-child{
+	background-color:red;
+	
+}
